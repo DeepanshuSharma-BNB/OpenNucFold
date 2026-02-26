@@ -247,5 +247,9 @@ equilibrium, NUPACK remains the gold standard.
   Consider using UNAFold for DNA-specific calculations.
 
 ---
+## License
+This project is licensed under a Non-Commercial Open Source License. This license allows you to use, modify, and distribute the software for non-commercial purposes only. Commercial use is prohibited without explicit permission from the copyright holder. Additionally, you may not patent or claim intellectual property rights over the software or any derivative works.
 
-*OpenNucFold v1.0.0 — MIT License*
+© Sharma, Deepanshu (2026), Germany.
+---
+*OpenNucFold v1.0.0*
