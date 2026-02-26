@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends"
+
+[project]
+name = "opennucfold"
+version = "1.0.0"
+description = "Open-source nucleic acid folding & design GUI — NUPACK-like workflows via ViennaRNA"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "OpenNucFold Contributors"}]
+
+dependencies = [
+    "PyQt6>=6.5",
+    "matplotlib>=3.7",
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-qt>=4.2"]
+
+[project.scripts]
+opennucfold = "opennucfold.app:main"
+
+[tool.pytest.ini_options]
+testpaths = ["opennucfold/tests"]
